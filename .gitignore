@@ -1,0 +1,6 @@
+.idea
+.DS_Store
+golib/output
+androidapp/app/src/main/assets/golib
+androidapp/app/src/main/java/golib
+androidapp/app/src/main/java/go
