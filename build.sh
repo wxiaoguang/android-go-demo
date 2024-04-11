@@ -16,6 +16,7 @@ cd $DIR
 
 echo "Building Go library"
 cd golib
+mkdir -p output
 gomobile bind -target=android -androidapi=21 -o output/golib.aar
 
 echo "Extracting Go library sources and assets"
